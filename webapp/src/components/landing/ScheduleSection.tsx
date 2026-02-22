@@ -4,6 +4,7 @@ const scheduleItems = [
   { name: "6 am Chaburah", time: "6:00 am" },
   { name: "Shachris 1", time: "6:55 / 7:00 am" },
   { name: "Shachris 2", time: "8:15 am" },
+  { name: "Seder", time: "9:00 am" },
   { name: "Maariv", time: "9:55 pm" },
 ];
 

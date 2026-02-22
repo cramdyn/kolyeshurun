@@ -29,6 +29,15 @@ export function HeroSection() {
   return (
     <section className="py-8 md:py-16 px-4 md:px-6 bg-primary">
       <div className="max-w-6xl mx-auto">
+        {/* Mobile: Wordmark above headline */}
+        <div className="md:hidden flex justify-center mb-4">
+          <img
+            src="/ky-wordmark.png"
+            alt="Kol Yeshurun"
+            className="h-3 invert brightness-0 filter"
+          />
+        </div>
+
         {/* Headline - smaller on mobile */}
         <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-center mb-8 md:mb-12 text-primary-foreground leading-tight font-sans font-semibold">
           A Makom Where Torah

@@ -28,7 +28,7 @@ export function Footer() {
           </div>
 
           <a
-            href="https://chat.whatsapp.com/KOb52NiqR9B3cWcGxQDJtO"
+            href="https://chat.whatsapp.com/CV9cIB8UaNm96a3XA3URwv?mode=gi_t"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,6 +43,9 @@ export function Footer() {
         </div>
 
         <div className="mt-6 pt-4 border-t border-border text-center">
+          <p className="text-xs text-muted-foreground mb-1">
+            Tax ID / EIN: 26-3546981
+          </p>
           <p className="text-xs text-muted-foreground">
             Kol Yeshurun 2026. All Rights Reserved. A project of{" "}
             <a

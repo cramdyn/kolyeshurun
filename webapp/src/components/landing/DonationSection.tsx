@@ -23,7 +23,7 @@ export function DonationSection() {
               {donationOptions.map((option) => (
                 <a
                   key={option.id}
-                  href="http://tinyurl.com/KolYeshurun"
+                  href="https://kydonate.replit.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-lg md:text-xl text-muted-foreground hover:text-primary hover:translate-x-2 transition-all duration-300 ease-out"
@@ -39,7 +39,7 @@ export function DonationSection() {
               size="lg"
               className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-lg py-6 shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <a href="http://tinyurl.com/KolYeshurun" target="_blank" rel="noopener noreferrer">
+              <a href="https://kydonate.replit.app/" target="_blank" rel="noopener noreferrer">
                 Donate Now
               </a>
             </Button>
